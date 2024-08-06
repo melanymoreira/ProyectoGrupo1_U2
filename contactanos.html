@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .contact-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: 300px;
+        }
+        .contact-card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .contact-card h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        .contact-card p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .contact-card p strong {
+            color: #000;
+        }
+        .boton-inicio {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+
+        .boton-inicio:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-card">
+        <img src="imagenes/melany.jpg" alt="Foto de Melany">
+        <h2>Melany Moreira</h2>
+        <p><strong>Email:</strong> mrmoreira1@espe.edu.ec</p>
+        <p><strong>Teléfono:</strong> +593 99-293-4409</p>
+        <p><strong>Ciudad:</strong> Santo Domingo</p>
+        <p><strong>País:</strong> Ecuador</p>
+    </div>
+
+    <div class="contact-card">
+        <img src="imagenes/gregorio.jpg" alt="Foto de Gregorio">
+        <h2>Gregory Chevez</h2>
+        <p><strong>Email:</strong> kgchevez@espe.edu.ec</p>
+        <p><strong>Teléfono:</strong> 593 97-875-1238</p>
+        <p><strong>Ciudad:</strong> Santo Domingo</p>
+        <p><strong>País:</strong> Ecuador</p>
+    </div>
+    <a href="index.html" class="boton-inicio">&#8593; Volver al Inicio</a>
+</body>
+</html>
